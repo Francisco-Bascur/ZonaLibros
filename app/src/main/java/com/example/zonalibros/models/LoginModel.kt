@@ -1,4 +1,13 @@
 package com.example.zonalibros.models
 
-class LoginModel { 
-}
+// ! data class que representa la estructura de datos del usuario
+
+data class LoginModel (
+
+    var correo: String,
+    var contraseña: String
+)
+
+
+
+
